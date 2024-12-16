@@ -1,4 +1,4 @@
-# toySB
+# BayesIITP
 Schrodinger Bridge realization for toy datasets
 
 # Quick start 🚀
