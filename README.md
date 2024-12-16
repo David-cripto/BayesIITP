@@ -22,3 +22,9 @@ The arrow indicates the forward process of transferring one data distribution $p
 Example of the trained model:
 ![image](/assets/trained_SB.gif)
 
+# Train script
+To easily start model training, set(more details in the script):
+
+```bash
+python train2d.py --name test --dataset1 swiss --dataset2 scurve --ckpt_path ./ --path_to_save ./ --microbatch 256
+```

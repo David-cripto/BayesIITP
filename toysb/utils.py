@@ -123,7 +123,7 @@ def visualize2d(x1, x0, xs, num_trajectories = 100):
 
     plt.scatter(x0[:, 0], x0[:, 1], c = "#008000", edgecolors='black', label = "x0")
     plt.scatter(x1[:, 0], x1[:, 1], c = "#89CFF0", edgecolors='black', label = "x1")
-    plt.scatter(x0[:num_trajectories, 0], x0[:num_trajectories, 1], c = "#880808", edgecolors='#880808', label = "start trajectory")
+    plt.scatter(x1[:num_trajectories, 0], x1[:num_trajectories, 1], c = "#880808", edgecolors='#880808', label = "start trajectory")
     plt.scatter(xs[:num_trajectories, 0, 0],xs[:num_trajectories, 0, 1], c = "#FFBF00", edgecolors='#FFBF00', label = "end trajectory")
     plt.legend()
     return fig

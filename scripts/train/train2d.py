@@ -45,6 +45,7 @@ def create_arguments():
     parser.add_argument("--cond_x1", action="store_true", help="use condition")
     parser.add_argument("--add_x1_noise", action="store_true", help="add noise")
     parser.add_argument("--clip_denoise", action="store_true", help="clip x0 in each iteration")
+    parser.add_argument("--port", type=str, default="6020")
     parser.add_argument("--verbose", action="store_true", help="verbosity level (bool)")
 
     opt = parser.parse_args()
